@@ -1,0 +1,246 @@
+html{
+  font-family: Montserrat;
+
+}
+.navigation{
+  height: 200px;
+}
+.section{
+  height: 500px;
+  margin-bottom: 100px;
+  /* box-shadow: 0 0 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19); */
+}
+.section1{
+  height:400px;
+  margin-bottom:75px;
+}
+
+h1{ 
+    text-align: left;
+    color: gray;
+    font-size: 30px;
+    float: left;
+    margin-left: 20px;
+    font-weight: 400;
+    padding: 3px 3px;
+    border: 2px solid  #EA9AB2;
+}
+nav {
+    height: 50px;
+    float: right;
+    padding-top: 15px;
+    text-align: right;
+    text-decoration: none;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  a:visited {
+    color: black;
+  }
+
+  .inline-block {
+    padding: 15px;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .inline-block:hover {
+    background-color: #EAF2D7;
+  }
+
+#heroImg{
+  float:left;
+  margin-left: 200px;
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+  /* outline: 1px solid red; */
+}
+
+#heroTxt{
+  float: right;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 60px;
+  margin-right: 70px;
+  /* outline: 1px solid red; */
+  width: 40%;
+  align-items: center;
+}
+
+h2{
+  font-weight: 600;
+  font-size: 30px;
+  color: #E27396;
+}
+.button{
+  background-color: #B3DEE2;
+  font-family: Montserrat;
+  border: none;
+  /* border: 2px solid #707070; */
+  text-align: center;
+  display: inline-block;
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+  border-radius: 8px;
+}
+
+.button:hover{
+  background-color: #EA9AB2;
+}
+
+#aboutMe{
+  font-size: 15px;
+  padding: 10px 50px;
+
+}
+
+#moreInfo{
+  font-size: 15px;
+  padding: 10px 60px;
+}
+
+.row{
+  display: flex;
+}
+
+.column{
+  flex: 33.33%;
+  padding: 30px;
+  text-align: center;
+  margin: 20px;
+  border: 2px solid #B3DEE2;
+}
+
+footer{
+  display: block;
+}
+
+.icon{
+  width: 35px;
+  height: auto;
+}
+
+.row2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column1{
+  padding: 15px;
+}
+
+/*About CSS*/
+#bioImg{
+  float: left;
+  margin-left: 25px;
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+  border: 4px solid #B3DEE2;
+}
+
+#bioTxt{
+  float: right;
+  width: 600px;
+  margin-right: 25px;
+  
+}
+#philTxt{
+  float: left;
+  width: 600px;
+  margin-left:25px;
+}
+#philImg{
+  float: right;
+  margin-right: 25px;
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+  border: 4px solid #B3DEE2;
+}
+
+/*Projects CSS*/
+.rowTall{
+  display: flex;
+}
+.columnTall{
+  flex: 25%;
+  margin: 12px;
+  border: 5px solid #B3DEE2;
+  position: relative;
+  text-align: center;
+}
+
+h4{
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+
+.position{
+  position: absolute;
+  top:30%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+}
+
+#view{
+  font-size: 15px;
+  padding: 10px 60px;
+}
+
+/* Contact CSS*/
+.contact{
+  display:flex;
+
+}
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+}
+
+input[type=submit] {
+  background-color: #E27396;
+  color: black;
+  padding: 12px 60px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+
+}
+
+.container{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  flex: 45%;
+  justify-content: flex-end;
+}
+
+.info{
+  flex: 45%;
+  text-align:center;
+  padding: 20px;
+  margin-top: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
